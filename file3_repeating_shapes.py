@@ -33,3 +33,6 @@ shape(100)
 shape(200)
 shape(300)
 shape(400)
+
+# keeps drawing open
+input()
