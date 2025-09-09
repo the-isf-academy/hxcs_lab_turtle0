@@ -3,14 +3,15 @@
 
 # 💻️⃣  Run the file and see what happens! 
 
-# 💻️⃣  How could you incorporate a loop into the shape() function?
+# 💻️⃣  Lines 18-26
+#       How could you incorporate a loop into the shape() function?
 
-# 💻️⃣  Lines 26-29 
+# 💻️⃣  Lines 32-35
 #       How could you incorporate a loop into where the shape() function is used?
 
 # 💻️⃣  Change the code in the shape function to create own shape! 
 # ////////////////////////////////////////////
-
+from helpers import fly
 from turtle import * 
 
 # This is a function. It's an easy way to name a block of code.
@@ -23,6 +24,9 @@ def shape(size):
     right(90)
     forward(size)
     right(90)
+
+# move the pen to the top left corner
+fly(-200,200)
 
 # This is where the shape() function is used 
 shape(100)
